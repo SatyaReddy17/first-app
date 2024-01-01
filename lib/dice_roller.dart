@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:math';
 
 class DiceRoller extends StatefulWidget {
-  DiceRoller({super.key});
+  const DiceRoller({super.key});
   @override
   State<StatefulWidget> createState() {
     return _DiceRollerState();
@@ -20,6 +20,7 @@ class _DiceRollerState extends State<DiceRoller> {
     });
   }
 
+  @override
   Widget build(context) {
     return Column(
       mainAxisSize: MainAxisSize.min,

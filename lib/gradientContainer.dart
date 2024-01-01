@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:first_app/dice_roller.dart';
 import 'package:flutter/material.dart';
 // import 'package:first_app/styledText.dart';
@@ -25,7 +27,7 @@ class GradientContainer extends StatelessWidget {
           end: botRight,
         ),
       ),
-      child: Center(
+      child: const Center(
         // child: StyledText('Hello Brother'),
         child: DiceRoller(),
       ),
